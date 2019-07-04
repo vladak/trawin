@@ -4,5 +4,6 @@ os:
   - linux
 jdk:
   - openjdk8
+before_script: install
 script:
   - echo foo
