@@ -11,5 +11,6 @@ export PATH=%M2_HOME%\bin:${PATH}
 
 choco install universal-ctags
 
+echo ${PATH}
 java -version
 mvn -version
