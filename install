@@ -18,6 +18,8 @@ export PATH=${PATH}:/c/ProgramData/chocolatey/lib/universal-ctags/tools
 choco install svn
 export PATH=${PATH}:/c/Program\ Files\ \(x86\)/Subversion/bin
 
+choco install python3
+
 # cat /c/ProgramData/chocolatey/logs/chocolatey.log
 # choco info -l -v svn
 
