@@ -22,7 +22,7 @@ export PATH=${PATH}:/c/Program\ Files/Subversion/bin
 choco info -l -v svn
 
 echo ${PATH}
-ls ${MAVEN_HOME}
+ls /c/Program\ Files
 
 java -version
 mvn -version
