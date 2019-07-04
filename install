@@ -16,7 +16,7 @@ choco install universal-ctags
 export PATH=${PATH}:/c/ProgramData/chocolatey/lib/universal-ctags/tools
 
 choco install svn
-export PATH=${PATH}:/c/subversion/bin
+export PATH=${PATH}:/c/ProgramData/chocolatey/lib/subversion/bin
 
 echo ${PATH}
 ls ${MAVEN_HOME}
