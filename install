@@ -6,7 +6,8 @@ export JAVA_HOME=${JAVA_HOME:-/c/jdk}
 export PATH=${JAVA_HOME}/bin:${PATH}
 
 choco install maven -params 'installdir=c:\\mvn' -y
-export PATH=${PATH}:/c/mvn
+# export PATH=${PATH}:/c/mvn
+export PATH=%M2_HOME%\bin:${PATH}
 
 choco install universal-ctags
 
