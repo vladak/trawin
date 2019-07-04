@@ -16,14 +16,14 @@ choco install universal-ctags
 export PATH=${PATH}:/c/ProgramData/chocolatey/lib/universal-ctags/tools
 
 choco install svn
-export PATH=${PATH}:/c/ProgramData/chocolatey/lib/svn
+export PATH=${PATH}:/c/Program\ Files\ \(x86\)/Subversion/bin
 
 # cat /c/ProgramData/chocolatey/logs/chocolatey.log
 # choco info -l -v svn
 
 echo ${PATH}
 
-ls /c/ProgramData/chocolatey/lib
+# ls /c/ProgramData/chocolatey/lib
 # find /c/ -name svn.exe
 
 java -version
