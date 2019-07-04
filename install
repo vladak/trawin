@@ -6,6 +6,7 @@ export JAVA_HOME=${JAVA_HOME:-/c/jdk}
 export PATH=${JAVA_HOME}/bin:${PATH}
 
 choco install maven
+# TODO: This should reference %M2_HOME% instead of hard-coding Maven version
 export MAVEN_HOME=/c/ProgramData/chocolatey/lib/maven/apache-maven-3.6.1
 export PATH=${MAVEN_HOME}/bin:${PATH}
 
