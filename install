@@ -16,6 +16,7 @@ choco install universal-ctags
 export PATH=${PATH}:/c/ProgramData/chocolatey/lib/universal-ctags/tools
 
 choco install svn
+export PATH=${PATH}:/c/svn
 
 echo ${PATH}
 ls ${MAVEN_HOME}
@@ -23,3 +24,4 @@ ls ${MAVEN_HOME}
 java -version
 mvn -version
 ctags --version
+svn --version
