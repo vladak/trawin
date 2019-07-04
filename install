@@ -19,6 +19,7 @@ choco install svn
 export PATH=${PATH}:/c/Program\ Files\ \(x86\)/Subversion/bin
 
 choco install python3
+export PATH=${PATH}:/c/Python37
 
 # cat /c/ProgramData/chocolatey/logs/chocolatey.log
 # choco info -l -v svn
@@ -32,3 +33,4 @@ java -version
 mvn -version
 ctags --version
 svn --version
+python3 -V
