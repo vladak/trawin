@@ -6,10 +6,13 @@ export JAVA_HOME=${JAVA_HOME:-/c/jdk}
 export PATH=${JAVA_HOME}/bin:${PATH}
 
 choco install maven
-export PATH=/c/ProgramData/chocolatey/lib/maven/bin:${PATH}
+export MAVEN_HOME=/c/ProgramData/chocolatey/lib/maven
+export PATH=${MAVEN_HOME}/bin:${PATH}
 
 choco install universal-ctags
 
 echo ${PATH}
+ls ${MAVEN_HOME}
+
 java -version
 mvn -version
