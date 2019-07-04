@@ -35,4 +35,4 @@ java -version
 mvn -version
 ctags --version
 svn --version
-python3 -V
+python -V
