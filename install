@@ -22,7 +22,7 @@ export PATH=${PATH}:/c/Program\ Files/Subversion/bin
 choco info -l -v svn
 
 echo ${PATH}
-ls /c/Program\ Files
+ls /c/ProgramData/chocolatey/lib
 
 java -version
 mvn -version
