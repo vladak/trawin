@@ -18,6 +18,8 @@ export PATH=${PATH}:/c/ProgramData/chocolatey/lib/universal-ctags/tools
 choco install svn
 export PATH=${PATH}:/c/ProgramData/chocolatey/lib/subversion/bin
 
+cat C:\ProgramData\chocolatey\logs\chocolatey.log
+
 echo ${PATH}
 ls ${MAVEN_HOME}
 
