@@ -5,7 +5,9 @@ choco install jdk8 -params 'installdir=c:\\jdk' -y
 export JAVA_HOME=${JAVA_HOME:-/c/jdk}
 export PATH=${JAVA_HOME}/bin:${PATH}
 
-choco install maven
+choco install maven -params 'installdir=c:\\mvn' -y
+export PATH=${PATH}:/c/mvn
+
 choco install universal-ctags
 
 java -version
