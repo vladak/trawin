@@ -37,4 +37,5 @@ java -version
 mvn -version
 ctags --version
 svn --version
+which python
 python -V
