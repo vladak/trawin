@@ -41,4 +41,4 @@ ctags --version
 svn --version
 which python
 python -V
-./mvnw -version
+mvn -version
