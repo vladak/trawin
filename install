@@ -22,7 +22,7 @@ export PATH=${PATH}:/c/Program\ Files\ \(x86\)/Subversion/bin
 
 choco install python3
 # prefer Python 3 to default Python 2
-export PATH=/c/Python37:${PATH}
+export PATH=/c/Python38:${PATH}
 
 ls /c/Python38
 
