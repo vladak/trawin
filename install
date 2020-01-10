@@ -14,6 +14,8 @@ choco install maven
 export MAVEN_HOME=/c/ProgramData/chocolatey/lib/maven/apache-maven-3.6.1
 export PATH=${MAVEN_HOME}/bin:${PATH}
 
+ls $MAVEN_HOME/bin
+
 choco install universal-ctags
 export PATH=${PATH}:/c/ProgramData/chocolatey/lib/universal-ctags/tools
 
@@ -39,4 +41,4 @@ ctags --version
 svn --version
 which python
 python -V
-maven -version
+mvn -version
