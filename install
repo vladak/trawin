@@ -42,4 +42,4 @@ svn --version
 which python
 python -V
 # TODO: for some reason mvnw does not work
-mvn -version
+./mvnw -version
