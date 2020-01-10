@@ -14,7 +14,7 @@ choco install maven
 export MAVEN_HOME=/c/ProgramData/chocolatey/lib/maven
 export PATH=${MAVEN_HOME}/bin:${PATH}
 
-ls $MAVEN_HOME/bin
+ls $MAVEN_HOME
 
 choco install universal-ctags
 export PATH=${PATH}:/c/ProgramData/chocolatey/lib/universal-ctags/tools
