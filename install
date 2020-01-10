@@ -35,8 +35,8 @@ echo ${PATH}
 # find /c/ -name svn.exe
 
 java -version
-mvn -version
 ctags --version
 svn --version
 which python
 python -V
+maven -version
