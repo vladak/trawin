@@ -1,6 +1,8 @@
+name: Windows
 language: shell
 os:
   - windows
 before_script: ./install
 script:
   - echo foo
+install: true
